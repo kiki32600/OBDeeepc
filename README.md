@@ -118,5 +118,5 @@ OVD ne cherche les interfaces J2534 que dans `HKLM\SOFTWARE\WOW6432Node\PassThru
 ## Publier une nouvelle version (mainteneur)
 
 1. Modifier `obdeeepc.py` et augmenter `VERSION` (par exemple `2.3.1`).
-2. Pousser sur `main`, puis pousser le tag correspondant : `git tag v2.3.1 && git push origin v2.3.1`.
-3. Le workflow « Compilation et publication » teste l'outil en simulation, compile l'exe 32 bits sous Windows avec PyInstaller et publie la version avec `obdeeepc-win32.zip` et `obdeeepc.py`. Les eeePC la proposent au démarrage suivant.
+2. Pousser sur `main`.
+3. Le workflow « Compilation et publication » teste l'outil en simulation et compile l'exe 32 bits sous Windows avec PyInstaller. Si la Release `v<VERSION>` n'existe pas encore, il la crée, tag compris, avec `obdeeepc-win32.zip` et `obdeeepc.py`. Les eeePC la proposent au démarrage suivant. Un push sans changement de `VERSION` ne fait qu'une compilation de contrôle.
