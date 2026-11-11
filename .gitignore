@@ -1,0 +1,17 @@
+# Réglages personnels (contiennent la clé Gemini) : ne jamais publier
+*_config.json
+obdeeepc_config.json
+obd807_config.json
+# Enregistrements, journaux, résumés
+*.csv
+*_resume.txt
+*_gemini.txt
+obdeeepc_journal.txt*
+obdeeepc_trames_*.txt
+# Compilation
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+*.zip
