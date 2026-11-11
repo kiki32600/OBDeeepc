@@ -44,7 +44,7 @@ Le résumé d'analyse contient :
 
 ## Installation sur l'eeePC (une seule fois, sans Python)
 
-1. Télécharger [`installer_obdeeepc.bat`](https://github.com/kiki32600/eeepc/raw/main/installer_obdeeepc.bat) (clic droit, « Enregistrer sous »), puis double-cliquer dessus.
+1. Télécharger [`installer_obdeeepc.bat`](https://github.com/kiki32600/OBDeeepc/raw/main/installer_obdeeepc.bat) (clic droit, « Enregistrer sous »), puis double-cliquer dessus.
 2. Il télécharge la dernière version compilée, l'installe dans `C:\Diag\obdeeepc` et crée l'icône **obdeeepc** sur le Bureau.
 3. **Fermer FORScan / Diagbox** avant d'utiliser l'outil : une seule application à la fois peut utiliser l'interface.
 

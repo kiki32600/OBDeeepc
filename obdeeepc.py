@@ -3,7 +3,7 @@
 """
 obdeeepc - enregistreur et outil de diagnostic OBD-II générique via interface J2534
 (conçu autour d'un Tactrix OpenPort 2.0 sur eeePC / Windows 10 32 bits).
-Dépôt : https://github.com/kiki32600/eeepc
+Dépôt : https://github.com/kiki32600/OBDeeepc
 
 Protocoles OBD : ISO 15765-4 (CAN 11/29 bits, 500/250 kbit/s), ISO 14230-4 (KWP2000),
 ISO 9141-2, SAE J1850 VPW/PWM. Détection automatique.
@@ -44,7 +44,7 @@ if IS_WIN:
     import winreg
 
 VERSION = "2.3.0"
-GITHUB_REPO = "kiki32600/eeepc"
+GITHUB_REPO = "kiki32600/OBDeeepc"
 UPDATE_ASSET = "obdeeepc-win32.zip"
 if getattr(sys, "frozen", False):  # .exe PyInstaller
     APP_DIR = os.path.dirname(os.path.abspath(sys.executable))
